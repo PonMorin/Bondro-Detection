@@ -6,8 +6,8 @@ from PIL import Image
 model = YOLO("yolov8n.pt", "v8")  
 
 # predict on an image
-# detection_output = model.predict(source="inference/images/Bottle.JPEG", conf=0.25, save=True) 
-detection_output = model.predict(source="inference/images/Cup.png", conf=0.25, save=True) 
+detection_output = model.predict(source="inference/images/Bottle.JPEG", conf=0.25, save=True) 
+# detection_output = model.predict(source="inference/images/Cup.png", conf=0.25, save=True) 
 
 result = detection_output[0]
 

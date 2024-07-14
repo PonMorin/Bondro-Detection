@@ -30,7 +30,7 @@ frame_wid = 640
 frame_hyt = 480
 
 # cap = cv2.VideoCapture(1)
-cap = cv2.VideoCapture("inference/videos/test.MP4")
+cap = cv2.VideoCapture("inference/videos/afriq0.MP4")
 
 if not cap.isOpened():
     print("Cannot open camera")
